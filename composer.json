@@ -1,0 +1,19 @@
+{
+    "name": "e95/composer-simple",
+    "autoload": {
+        "psr-4": {
+            "User\\ComposerSimple\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Alex R",
+            "email": "alex.r@wmt.digital"
+        }
+    ],
+    "require": {},
+    "bin": [
+        "./sayhi",
+        "./saybye"
+    ]
+}
